@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color--navbar: #373a3c;
+  --color--new: #dc3545;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--color--navbar);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  top: 0;
+  z-index: 1;
+}
+
+#navbar #hamburger {
+  background-color: #FFF;
+}
+
+#navbar #logo {
+  color: white;
+  text-decoration: none;
+  font-family: "Lobster", sans-serif;
+  font-size: 37px;
+}
+
+#inicio,
+#receta,
+#nosotros,
+#contacto {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  font-size: 16px;
+}
+
+#card {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#card-title {
+  align-items: start;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--color--navbar);
+}
+
+#card-text {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--color--navbar);
+}
+
+#boton1,
+#boton2,
+#boton3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fff;
+  color: var(--color--navbar);
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#ingredientes, #preparacion {
+  font-family: "Cabin";
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#newsletter {
+  padding: auto;
+  margin-top: 20px;
+  width: 100vmax;
+  height: 534px;
+  background-color: var(--color--new);
+  color: white;
+}
+
+#newsletter h2 {
+  font-family: "Cabin";
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#newsletter h6 {
+  font-family: "Cabin";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#entreLetras {
+  font-family: "Lobster";
+  font-weight: normal;
+  font-size: 30px;
+}
+
+#footer {
+  width: 100%;
+  background-color: var(--color--navbar);
+}
+
+#logoFooter {
+  padding: auto;
+  color: white;
+  text-decoration: none;
+  font-family: "Lobster", sans-serif;
+  font-size: 37px;
+}
+
+hr {
+  color: #373a3c;
+}
+
+#separador,
+#separador1,
+#separador2 {
+  border: 1px solid var(--color--navbar) !important;
+}
