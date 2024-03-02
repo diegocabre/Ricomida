@@ -6,7 +6,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 });
 
 // Evento click para enviar correo
-$("#boton1").click(function () {
+$("#enviarCorreo").click(function () {
   alert("El correo fue enviado correctamente...");
 });
 
@@ -21,5 +21,5 @@ $("#preparacion h3").on("dblclick", function () {
 
 // Selectores de clase para hacer aparecer/desaparecer contenido
 $("#recetas-relacionadas .card").click(function () {
-  $(this).find(".card-body").toggle();
+  $(this).find("#card-text1, #card-text2, #card-text3").toggle();
 });
